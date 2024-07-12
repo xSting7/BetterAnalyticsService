@@ -95,7 +95,7 @@ function BetterAnalyticsService:LogEconomyEvent(player: Player, flowType: string
 			currencyType = currencyType,
 			amount = amount,
 			endingBalance = endingBalance,
-			transactionType = transactionType,
+			transactionType = transactionType.Name,
 			itemSku = itemSku,
 			customFields = customFields,
 		}
